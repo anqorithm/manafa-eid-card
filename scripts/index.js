@@ -2,8 +2,8 @@ const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 const nameInput = document.getElementById("name");
 
-canvas.style.width = "400px";
-canvas.style.height = "400px";
+canvas.style.width = "350px";
+canvas.style.height = "350px";
 
 const image = new Image();
 image.src = "assets/card-2.png";
