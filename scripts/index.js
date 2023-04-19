@@ -29,7 +29,7 @@ nameInput.addEventListener("input", function () {
 
 function download() {
   const link = document.getElementById("link");
-  link.setAttribute("download", `@ManafaTeam - ${nameInput.value}.png`);
+  link.setAttribute("download", `Manafa - ${nameInput.value}.png`);
   link.setAttribute(
     "href",
     canvas.toDataURL("image/png").replace("image/png", "image/octet-stream")
