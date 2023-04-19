@@ -1,0 +1,100 @@
+body {
+  background-image: url("https://manafa.co/_nuxt/img/bg-gradient-3.888684c.webp");
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: cover;
+  margin-top: 40px;
+  font-family: "Tajawal", sans-serif;
+  font-size: 1.5em;
+}
+
+p {
+  font-family: "Arial";
+  font-size: 10px;
+  color: #757575;
+}
+img {
+  height: 150px;
+}
+
+h1,
+h2 {
+  color: #000000;
+}
+
+h1 {
+  margin-top: 40px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main * {
+  margin-bottom: 16px;
+}
+
+label {
+  margin: 32px 16px 16px;
+  font-size: 0.9em;
+  color: #fff;
+  font-weight: bold;
+}
+
+input {
+  width: calc(100% - 64px);
+  max-width: 350px;
+  font-family: "Tajawal";
+  border-radius: 37px;
+  text-align: center;
+  font-size: large;
+  color: #fff;
+  outline: none;
+  border: 1px solid #fff;
+  background-color: rgba(0, 0, 0, 0);
+  text-transform: capitalize;
+  padding: 10px;
+  margin: 10px;
+}
+
+#download-btn {
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  border-color: #fff !important;
+  border-radius: 37px;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.25;
+  min-width: max-content;
+  padding: 0 32px;
+  height: 48px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease-out;
+  background-color: #03020f;
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0);
+  font-weight: 700;
+  font-family: "Tajawal";
+  padding: 10px 20px;
+  margin: 24px 24px 40px;
+  cursor: pointer;
+}
+
+#download-btn:hover {
+  background-color: #e5e4e2;
+  color: #03020f;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: #fff !important;
+}
