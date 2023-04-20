@@ -6,7 +6,7 @@ canvas.style.width = "350px";
 canvas.style.height = "350px";
 
 const image = new Image();
-image.src = "assets/card-2.png";
+image.src = "assets/card-2.jpg";
 image.onload = function () {
   drawImage(canvas.width, canvas.height);
 };
