@@ -6,7 +6,7 @@ canvas.style.width = "350px";
 canvas.style.height = "350px";
 
 const image = new Image();
-image.src = "assets/card-2.jpg";
+image.src = "assets/card1.png";
 image.onload = function () {
   drawImage(canvas.width, canvas.height);
 };
@@ -17,10 +17,10 @@ function drawImage(width, height) {
   ctx.mozImageSmoothingEnabled = false;
   ctx.imageSmoothingEnabled = false;
   ctx.drawImage(image, 0, 0, width, height);
-  ctx.font = "bold 70px Cairo";
+  ctx.font = "bold 100px Cairo";
   ctx.fillStyle = "#fff";
   ctx.textAlign = "center";
-  ctx.fillText(nameInput.value.trim(), width / 2 - 19, height - 400);
+  ctx.fillText(nameInput.value.trim(), width / 2 - 19, height - 850);
 }
 
 nameInput.addEventListener("input", function () {
