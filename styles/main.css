@@ -81,11 +81,50 @@ input {
   color: #fff;
   border: 1px solid rgba(0, 0, 0, 0);
   font-weight: 700;
-  font-family: "Cairo";
   padding: 10px 20px;
   margin: 24px 24px 40px;
   cursor: pointer;
 }
+
+a {
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  border-radius: 37px;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.25;
+  min-width: max-content;
+  height: 30px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease-out;
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0);
+  font-weight: 700;
+  font-family: "Cairo";
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+@font-face {
+  font-family: NeuePlak;
+  src: url(../fonts/neue-plak/NeuePlak-Regular.woff);
+}
+
+:lang(en) {
+  font-family: NeuePlak;
+}
+
+:lang(ar) {
+  font-family: "Cairo";
+}
+
+a:hover {
+  color: #03020f;
+}
+
 
 #download-btn:hover {
   background-color: #e5e4e2;
