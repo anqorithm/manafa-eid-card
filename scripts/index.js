@@ -20,7 +20,7 @@ function drawImage(width, height) {
   ctx.font = "bold 100px Cairo";
   ctx.fillStyle = "#fff";
   ctx.textAlign = "center";
-  ctx.fillText(nameInput.value.trim(), width / 2 - 19, height - 850);
+  ctx.fillText(nameInput.value.trim(), width / 2 - 19, height - 830);
 }
 
 nameInput.addEventListener("input", function () {

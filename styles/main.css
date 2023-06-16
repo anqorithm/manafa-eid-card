@@ -4,12 +4,12 @@ body {
   text-align: center;
   background-size: cover;
   margin-top: 40px;
-  font-family: "Tajawal", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-size: 1.5em;
 }
 
 p {
-  font-family: "Tajawal";
+  font-family: "Cairo";
   font-size: 10px;
   color: #757575;
 }
@@ -49,7 +49,7 @@ label {
 input {
   width: calc(100% - 64px);
   max-width: 350px;
-  font-family: "Tajawal";
+  font-family: "Cairo";
   border-radius: 37px;
   text-align: center;
   font-size: large;
@@ -81,7 +81,7 @@ input {
   color: #fff;
   border: 1px solid rgba(0, 0, 0, 0);
   font-weight: 700;
-  font-family: "Tajawal";
+  font-family: "Cairo";
   padding: 10px 20px;
   margin: 24px 24px 40px;
   cursor: pointer;
