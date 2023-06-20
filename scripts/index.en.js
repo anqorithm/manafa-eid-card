@@ -17,7 +17,7 @@ function drawImage(width, height) {
     ctx.mozImageSmoothingEnabled = false;
     ctx.imageSmoothingEnabled = false;
     ctx.drawImage(image, 0, 0, width, height);
-    ctx.font = "bold 120px NeuePlak";
+    ctx.font = "bold 110px NeuePlak";
     ctx.fillStyle = "#fff";
     ctx.textAlign = "center";
     ctx.fillText(nameInput.value.trim(), width / 1.95, height - 730);
@@ -34,5 +34,12 @@ function download() {
         "href",
         canvas.toDataURL("image/png").replace("image/png", "image/octet-stream")
     );
+    Toastify({
+        text: "The greeting card has been downloaded 🎉",
+        duration: 3000,
+        position: "left",
+        className: "toastify-small",
+    }).showToast();
+
     link.click();
 }

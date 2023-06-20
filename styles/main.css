@@ -107,6 +107,12 @@ a {
   text-decoration: none;
 }
 
+.greeting {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
 
 @font-face {
   font-family: NeuePlak;

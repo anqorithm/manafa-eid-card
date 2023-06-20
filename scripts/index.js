@@ -17,7 +17,7 @@ function drawImage(width, height) {
   ctx.mozImageSmoothingEnabled = false;
   ctx.imageSmoothingEnabled = false;
   ctx.drawImage(image, 0, 0, width, height);
-  ctx.font = "bold 120px Cairo";
+  ctx.font = "bold 110px Cairo";
   ctx.fillStyle = "#fff";
   ctx.textAlign = "center";
   ctx.fillText(nameInput.value.trim(), width / 1.95, height - 730);
