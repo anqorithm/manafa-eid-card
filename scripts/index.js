@@ -17,10 +17,10 @@ function drawImage(width, height) {
   ctx.mozImageSmoothingEnabled = false;
   ctx.imageSmoothingEnabled = false;
   ctx.drawImage(image, 0, 0, width, height);
-  ctx.font = "bold 100px Cairo";
+  ctx.font = "bold 120px Cairo";
   ctx.fillStyle = "#fff";
   ctx.textAlign = "center";
-  ctx.fillText(nameInput.value.trim(), width / 2 - 19, height - 830);
+  ctx.fillText(nameInput.value.trim(), width / 1.95, height - 730);
 }
 
 nameInput.addEventListener("input", function () {
@@ -34,5 +34,14 @@ function download() {
     "href",
     canvas.toDataURL("image/png").replace("image/png", "image/octet-stream")
   );
+
+  Toastify({
+    text: "🎉 تم تحميل بطاقة المعايدة",
+    duration: 3000,
+    position: "left",
+    className: "toastify-small",
+  }).showToast();
+
   link.click();
+
 }

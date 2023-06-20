@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 </head>
 
 <body>
@@ -33,11 +34,15 @@
             <a href="en.html" lang="en">English</a>
             <a href="ar.html" lang="ar">العربية</a>
         </div>
-        <h2>منافع المالية</h2>
-        <h1>بطاقة تهنئة بحلول عيد الأضحى المبارك</h1>
+        <h5>
+            موظفنا العزيز
+            كل عام وأنت بخيرٍ ويُسر ومنفعة
+            </br>
+            تفضل بإعداد بطاقتك الخاصة لتهنئة أحبابك بعيد الأضحى المبارك
+        </h5>
     </header>
     <main>
-        <label for="name">أدخل اسمك الثنائي</label>
+        <label for="name">أدخل اسمك</label>
         <input id="name" required type="text" name="Name" autocomplete="name" minlength="3" maxlength="31" />
         <button id="download-btn" onclick="download()">حمل البطاقة</button>
         <canvas id="canvas" height="2500px" width="2500px"></canvas>
@@ -46,6 +51,8 @@
     </main>
     <script src="scripts/index.js"></script>
     <script src="scripts/file-saver.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
 </body>
 
 </html>
