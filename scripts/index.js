@@ -38,7 +38,7 @@ function download() {
   Toastify({
     text: "🎉 تم تحميل بطاقة المعايدة",
     duration: 3000,
-    position: "left",
+    position: "right",
     className: "toastify-small",
   }).showToast();
 
